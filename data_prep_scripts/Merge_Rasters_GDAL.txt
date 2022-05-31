@@ -1,0 +1,24 @@
+#GDAL Script to merge satellite image and ground truth rasters for training a CNN model
+
+#Use in python environment with GDAL installed
+#Function stacks an arbitrary amount of .tif files together
+
+#USAGE
+#gdal_merge.py [parameters] <output_merged_file.tif> <input_satellite_image.tif> <input_ground_truth.tif> ...
+
+# worldview or planet imagery
+
+python C:/OSGeo4W64/bin/gdal_merge.py -separate -of GTiff -ot float64 -o c:/users/.../output_merged.tif c:/users/.../input_raster_mask_05m.tif c:/users/.../input_satimage_05m.tif
+
+
+
+
+
+
+
+
+
+
+
+
+
