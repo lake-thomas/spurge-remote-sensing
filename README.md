@@ -1,6 +1,6 @@
 # Remote Sensing of Invasive Species Leafy Spurge with Convolutional Neural Networks and Long-Short-Term Memory Networks
 
-This repo contains code for training and testing the neural networks described in this paper: *Lake, Thomas; Briscoe Runquist, Ryan; & Moeller, David. (2022). Deep learning detects invasive plant species across complex landscapes using Worldview-2 and Planetscope satellite imagery. Remote Sensing in Ecology and Conservation, Vol XX DOI XXX.
+This repo contains code for training and testing the neural networks described in this paper: *Lake, Thomas; Briscoe Runquist, Ryan; & Moeller, David. (2022). Deep learning detects invasive plant species across complex landscapes using Worldview-2 and Planetscope satellite imagery. Remote Sensing in Ecology and Conservation, Vol XX https://doi.org/10.1002/rse2.288
 
 We developed all models in Python v3.6.9 with Keras v2.2.4 (Chollet et al., 2015) and TensorFlow v2.0.0 (Abadi et al., 2016). We made special use of the segmentation-models package (https://github.com/qubvel/segmentation_models) to access and train the SE-ResNet50 U-net architecture (Yakubovskiy, 2019).
 
@@ -50,7 +50,7 @@ Effective management of invasive species requires rapid detection and dynamic mo
 
 ## Associated Publication
 ----------------------
-Lake, T.A., Briscoe Runquist, R.D., Moeller, D.A. 2022. Deep learning detects invasive plant species across complex landscapes using Worldview-2 and Planetscope satellite imagery. _Remote Sensing in Ecology and Conservation_ XX(X), XXX; doi: XXXX
+Lake, T.A., Briscoe Runquist, R.D., Moeller, D.A. 2022. Deep learning detects invasive plant species across complex landscapes using Worldview-2 and Planetscope satellite imagery. _Remote Sensing in Ecology and Conservation_ XX(X), XXX; doi: https://doi.org/10.1002/rse2.288
 
 ## Notice
 ----------------------
